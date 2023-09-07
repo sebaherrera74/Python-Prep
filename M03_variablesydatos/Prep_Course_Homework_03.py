@@ -28,7 +28,7 @@
 
 # 4) Crear una variable que contenga tu nombre
 
-# In[2]:
+# In[2]:nombre="Sebastian"
 
 
 

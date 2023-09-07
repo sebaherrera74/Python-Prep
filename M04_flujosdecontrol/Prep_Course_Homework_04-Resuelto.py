@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+##!/usr/bin/env python
 # coding: utf-8
 
 # ## Flujos de Control
@@ -12,7 +12,7 @@ a = 10
 if (a < 0):
     print('La variable es menor a cero')
 elif (a > 0): 
-    print('La varaible es mayor a cero')
+    print('La variable es mayor a cero')
 else:
     print('La variable es igual a cero')
 
@@ -23,7 +23,7 @@ else:
 
 
 a = 2
-b = 'hola'
+b = 3
 if (type(a) == type(b)):
     print('Las variables son del mismo tipo de dato')
 else:
@@ -35,7 +35,7 @@ else:
 # In[7]:
 
 
-for i in range(1, 21):
+for i in range(0, 21):
     if i % 2 == 0:
         print('El número ', str(i), ' es par')
     else:
@@ -67,7 +67,7 @@ print(i)
 # In[33]:
 
 
-n = 5
+n = 204
 if (type(n) == int):
     if (n > 0):
         factorial = n
@@ -100,10 +100,10 @@ while(n < 5):
 # In[3]:
 
 
-n = 5
+n = 2
 for i in range(1, n):
     while(n < 5):
-        n -= 1
+        n += 1
         print('Ciclo while nro ' + str(n))
         print('Ciclo for nro ' + str(i))
 
@@ -113,7 +113,7 @@ for i in range(1, n):
 # In[54]:
 
 
-tope_rango=30
+tope_rango=50
 n = 0
 primo = True
 while (n < tope_rango):
@@ -131,7 +131,7 @@ while (n < tope_rango):
 
 # In[55]:
 
-
+tope_rango=30
 n = 0
 primo = True
 while (n < tope_rango):
@@ -150,7 +150,7 @@ while (n < tope_rango):
 
 # In[56]:
 
-
+tope_rango=30
 ciclos_sin_break = 0
 n = 0
 primo = True
@@ -169,7 +169,7 @@ print('Cantidad de ciclos: ' + str(ciclos_sin_break))
 
 # In[57]:
 
-
+tope_rango=30
 ciclos_con_break = 0
 n = 0
 primo = True
