@@ -67,16 +67,35 @@ for i in range (0,5):
 # for la misma cantidad de ciclos
 
 # In[10]:
+numero_ciclos=3
 
+for i in range(0,numero_ciclos):
+     pass
+     #print(i)
 
-
+print(i)
 
 
 # 6) Utilizar un ciclo while para realizar el factoreo de un número guardado 
 # en una variable, sólo si la variable contiene un número entero mayor a 0
 
 # In[33]:
+numero=-4
 
+if (type(numero)==int):
+     #Calcular el factorial siempre y cuando sea mayor que cero
+     if (numero>0):
+          factorial=numero
+          while(numero>2):
+              numero=numero-1
+              factorial=factorial*numero
+          print("El factorial de un numero es ", str(factorial))
+     
+     else:
+          print("El numero no es entero positivo")
+
+else:
+     print("El numero no es un entero")
 
 
 
